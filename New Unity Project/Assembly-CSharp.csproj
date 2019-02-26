@@ -59,10 +59,13 @@
      <Compile Include="Assets\Scrpts\LightController.cs" />
      <Compile Include="Assets\Scrpts\StageController.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>C:/Users/K018A1534/Desktop/新しいフォルダー/35-/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
+ <HintPath>C:/Users/K018A1534/Desktop/新しいフォルダー/35-/New Unity Project/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
+ <HintPath>C:/Users/K018A1534/Desktop/新しいフォルダー/35-/New Unity Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>C:/Users/K018A1534/Desktop/新しいフォルダー/35-/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
