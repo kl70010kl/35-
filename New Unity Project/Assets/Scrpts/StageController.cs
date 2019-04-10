@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class StageController : MonoBehaviour
 {
-    private float rotate;
     
     // Start is called before the first frame update
     void Start()
@@ -17,13 +16,11 @@ public class StageController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            rotate += 1;
-            transform.localEulerAngles = new Vector3(0, 0, rotate);
+            transform.Rotate(new Vector3(0, 0, -1));
         }
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            rotate -= 1;
-            transform.localEulerAngles = new Vector3(0, 0, rotate);
+            transform.Rotate(new Vector3(0, 0, 1));
         }
     }
 }

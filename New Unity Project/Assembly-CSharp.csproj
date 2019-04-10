@@ -55,6 +55,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scrpts\FollowPlayer.cs" />
      <Compile Include="Assets\Scrpts\GameController.cs" />
+     <Compile Include="Assets\Scrpts\Goal.cs" />
      <Compile Include="Assets\Scrpts\Item.cs" />
      <Compile Include="Assets\Scrpts\LightController.cs" />
      <Compile Include="Assets\Scrpts\StageController.cs" />

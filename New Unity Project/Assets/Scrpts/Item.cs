@@ -16,9 +16,9 @@ public class Item : MonoBehaviour
         
     }
 
-    void OnTriggerEnter(Collider otrher)
+    void OnTriggerEnter(Collider other)
     {
-        if (otrher.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
             Destroy(gameObject);
         }
